@@ -1,0 +1,13 @@
+node_modules/
+# Portable tools downloaded for this PC (Node, FFmpeg, Git). The test scripts in tools/ are kept.
+tools/node/
+tools/ffmpeg/
+tools/git/
+tools/*.log
+backups/
+recordings/
+.wrangler/
+.dev.vars
+.agents/
+.claude/settings.local.json
+*.log

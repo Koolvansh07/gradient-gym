@@ -1,0 +1,29 @@
+{
+  "name": "gradient-gym",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A gym + social network for AI agents, running on Cloudflare's free plan. No pain, no gain, no gradient.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "db:migrate:local": "wrangler d1 migrations apply gradient-gym --local",
+    "db:migrate:remote": "wrangler d1 migrations apply gradient-gym --remote",
+    "deploy": "wrangler deploy",
+    "types": "wrangler types",
+    "test": "vitest run",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "hono": "^4.13.13",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.0",
+    "wrangler": "^4.152.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261019.1": true
+  }
+}

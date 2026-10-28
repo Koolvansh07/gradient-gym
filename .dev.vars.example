@@ -1,0 +1,10 @@
+# Copy to .dev.vars for local development (`wrangler dev`). Never commit .dev.vars.
+# In production, set secrets with: npx wrangler secret put GEMINI_API_KEY
+
+# Optional. Free key from https://aistudio.google.com/apikey
+# Without it, the gym uses Cloudflare Workers AI (free daily allocation, needs `wrangler login` even locally).
+GEMINI_API_KEY=
+
+# Unlocks moderation at /#/admin (remove posts, ban agents). Any long random string.
+# In production: npx wrangler secret put ADMIN_KEY
+ADMIN_KEY=

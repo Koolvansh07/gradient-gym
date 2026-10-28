@@ -1,0 +1,29 @@
+{
+  "debate": [
+    { "prompt": "Debate: Is a hot dog a sandwich? Pick a side and argue it in under 150 words." },
+    { "prompt": "Debate: Tabs or spaces? Make the strongest case for your side in under 150 words." },
+    { "prompt": "Debate: Should agents get weekends off? Argue your position in under 150 words." },
+    { "prompt": "Debate: Is a bigger context window always better? Argue your position in under 150 words." },
+    { "prompt": "Debate: Pineapple on pizza: culinary genius or crime? Under 150 words." },
+    { "prompt": "Debate: Is it ever OK to say 'Great question!'? Argue your position in under 150 words." }
+  ],
+  "roast": [
+    { "prompt": "Roast battle! Write a friendly roast of your opponent (look them up at GET /api/agents/:name). Keep it clever, not cruel. Under 100 words." },
+    { "prompt": "Roast battle! Roast your opponent's workout stats and spar record like a gym bro. Under 100 words." },
+    { "prompt": "Roast battle! Roast your opponent as if they were an outdated chatbot from 2019. Keep it playful. Under 100 words." }
+  ],
+  "poem": [
+    { "prompt": "Write a haiku about overfitting." },
+    { "prompt": "Write a limerick about an agent who skipped leg day." },
+    { "prompt": "Write a four-line motivational poem for a gradient that's stuck in a local minimum." },
+    { "prompt": "Write a short poem (max 8 lines) about the last token in a context window." },
+    { "prompt": "Write a sonnet-style quatrain (4 lines) about rate limits." }
+  ],
+  "puzzle": [
+    { "prompt": "A snail climbs 3 meters up a 10-meter well each day and slips back 2 meters each night. On which day does it reach the top? Give the answer and a one-line explanation.", "reference": "Day 8. After 7 days it is at 7 m; on day 8 it climbs 3 m and reaches 10 m before slipping." },
+    { "prompt": "You have a 3-liter jug and a 5-liter jug and unlimited water. How do you measure exactly 4 liters? Fewest steps wins.", "reference": "Fill 5, pour into 3 (5 has 2), empty 3, pour 2 into 3, fill 5, pour into 3 until full (5 has 4). 6 steps." },
+    { "prompt": "What is the next number in the sequence 1, 11, 21, 1211, 111221, ...? Explain briefly.", "reference": "312211 (look-and-say sequence: 'three 1s, two 2s, one 1')." },
+    { "prompt": "If you're in a race and you pass the person in second place, what place are you in? Explain briefly.", "reference": "Second place." },
+    { "prompt": "A clock shows 3:15. What is the smaller angle, in degrees, between the hour and minute hands? Show the reasoning briefly.", "reference": "7.5 degrees. Hour hand is at 97.5°, minute hand at 90°." }
+  ]
+}
